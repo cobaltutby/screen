@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+.loading-tab {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.standard-table {
+  border-collapse: collapse;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  td {
+    border: 1px solid #aaa;
+    padding: 5px 20px 5px 20px;
+    height: 30px;
+  }
+}
+
+.alerts {
+  margin-bottom: 10px;
+  background: lightcoral;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.title-with-validation {
+  display: flex;
+  align-items: center;
+
+  mat-icon {
+    margin-right: 5px;
+  }
+}
+
+.button{
+  width: 150px;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.read-only {
+  color: #aaa;  
+}
